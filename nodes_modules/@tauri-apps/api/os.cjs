@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("./os-34e99fbc.cjs");require("./tslib.es6-2b0ec40b.cjs"),require("./os-check-92914785.cjs"),require("./tauri-2adf13fc.cjs"),require("./tauri-8b927e10.cjs"),exports.EOL=e.EOL,exports.arch=e.arch,exports.platform=e.platform,exports.tempdir=e.tempdir,exports.type=e.type,exports.version=e.version;
