@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Curabitur id eros quis nunc suscipit"
+    },
+    {
+        "icon" : "bx bx-package",
+        "content": "Duis malesuada justo eu spien elementum, in "
+    },
+    {
+        "icon" : "bx bx-cart",
+        "content": "Duis malesuada justo eu spien elementum"
+    },
+    {
+        "icon" : "bx bx-error",
+        "content": "Duis malesuada justo eu spien elementum "
+    },
+    {
+        "icon" : "bx bx-cart",
+        "content": "Curabitur id justo eu spien elementum"
+    }
+]

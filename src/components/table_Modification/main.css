@@ -1,0 +1,51 @@
+.buttontable {
+    width: 80px;
+    height: 30px;
+    color: var(--txt-white);
+}
+.Cancel{
+    color: var( --second-bg-dark);
+}
+.Edit_Save{
+    background-color: var( --main-color-green);
+    
+}
+.Edit_Save:hover{
+    background-color: var(--second-color-green);
+}
+.Dlelte{
+    background-color: var( --main-color-red);
+    
+}
+.Dlelte:hover{
+    background-color: var(--second-color-red);
+}
+.add{
+    display: flex; 
+    flex-direction: row-reverse;
+    padding-right: 112px;
+}
+.inputAdd{
+    width: 23.60%;
+    height: 32px;
+    border: 0px solid rosybrown;
+    padding: 8px 8px;
+    background-color: var(--grey);
+    border-radius: 1px;
+    color: var(--black);
+    margin: 8px;
+    font-size: large;
+}
+.inputEdiit{
+    width: 100%;
+    height: 32px;
+    border: 0px solid rosybrown;
+    padding: 8px 8px;
+    background-color: var(--grey);
+    border-radius: 1px;
+    color: var(--black);
+    font-size: large;
+}
+.inputAdd:hover {
+    background-color: var(--greynormale);
+}

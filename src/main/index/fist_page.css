@@ -1,0 +1,218 @@
+:root {
+    --blue: #1e90ff;
+   /* --white: #ffffff;*/
+    --grey: #D4D5DD;
+    --greynormale: #CFCFD4;
+    --whitegrey: #FAFAFA;
+    --whitegreytop: #F5F5F5;
+    --gren: #538320;
+    --black: #181A18;
+    --font: 'Roboto Mono';
+}
+
+/***************************************************** Scene::databaseList=header,aside*************************************************************/
+header,aside {
+    text-align: center;
+}
+header {
+    margin-top:37vh;
+}
+/*****************button aside et file**********************/
+
+.inputnavindex,.adisplaynone, .button, .custom-file-upload1 {
+    width: 75%;
+    height: 32px;
+    border: 0px solid rosybrown;
+    padding: 8px 8px;
+    background-color: var(--grey);
+    border-radius: 1px;
+    color: var(--black);
+    margin-top: 8px;
+    font-size: large;
+} 
+
+    .button:hover,.adisplaynone:hover, .custom-file-upload1:hover, .footerbuttonAddnew:hover {
+        background-color: var(--greynormale);
+    }
+
+.custom-file-upload1, .custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: none;
+}
+.adisplaynone{
+    width: 100%;
+
+}
+/***************************************************** Scene::databaseList=header,aside*************************************************************/
+/*****************************************************  Scene::NewDatabaseForm=main,footer**********************************************************/
+main, footer {
+    margin-left: 20%;
+    margin-top: 12px;
+}
+section {
+    margin-top: 5px;
+    padding: 10px 10px 5px 3%;
+    background-image: linear-gradient(to right,var(--whitegrey), var(--whitegreytop) );
+    width: 97%;
+    font-size: 14px;
+    height: 75vh;
+    border: 1px solid var(--greynormale);
+    overflow-x: hidden;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right:2.6%;
+}
+    footer button {
+        width: 90px;
+        margin-left:5px;
+        padding: 5px;
+    }
+.footerbuttonAddnew {
+    background-color: var(--gren);
+    color: var(--main-bg);
+
+}
+    .footerbuttonAddnew:hover {
+        color: var(--black);
+    }
+
+main > section > p {
+    padding-top: 10px;
+}
+
+main > section  h3 {
+    color: var(--gren);
+}
+.msgh3 {
+    margin-top: 25px;
+}
+main > section > form, nav > form {
+    padding-top: 2%;
+    height: 27%;
+    border: 1px solid var(--greynormale);
+    background-image: linear-gradient(to right,var(--whitegrey), var(--whitegreytop) );
+}
+
+section > form > div, section > nav >form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3px;
+    margin-left: 7px;
+    padding-top: 5px;
+}
+        main > section > form > div > input {
+            width: 63%;
+            padding: 5px;
+            border: 1px solid var(--grey);
+            border-radius: 4px;
+            outline: none;
+        }
+
+            main > section > form > div > input:hover, input:active {
+                border-color: var(--gren);
+            }
+
+
+/**********disappear and come back************/
+#id01:target {
+    left: 0;
+    top: 0;
+    display: flex;
+}
+.msg {
+    display: none;   
+}
+.h3msg{
+    margin-top: 25px;
+}
+main > section > nav {
+   margin-top: -12%;
+    padding-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.id01{
+    margin-top: 10%;
+}
+.msg form {
+    height: 20vh;
+}
+.msg form > div {
+        font-weight: normal;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 7px;
+        padding-top: 20px;
+}
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    width: 63%;
+    padding: 5px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    background-image: linear-gradient(to right,var(--whitegrey), var(--whitegreytop) );
+    color: #757779;
+}
+
+    .custom-file-upload:hover {
+        border-color: var(--gren);
+    }
+/***************slider***********/
+.slidecontainer {
+    width: 98%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 2px;
+    background: var(--grey);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-top: 10px;
+}
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        background: var(--grey);
+        cursor: pointer;
+    }
+/***************table***********/
+
+.error{
+    color: red;
+}
+.succesPassword{
+    color: rgb(0, 0, 0);
+}
+.form-message{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    opacity: 0;
+    transition: 0.2s ease;
+    color: black;
+    border-radius: 1px;
+    box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+}
+
+/*****************************************************  Scene::NewDatabaseForm=main,footer**********************************************************/
+
+
+    
