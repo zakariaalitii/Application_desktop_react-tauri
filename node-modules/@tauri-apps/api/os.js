@@ -1,0 +1,1 @@
+export{E as EOL,a as arch,p as platform,b as tempdir,t as type,v as version}from"./os-e9340543.js";import"./tslib.es6-9bc0804d.js";import"./os-check-094ffe86.js";import"./tauri-19998099.js";import"./tauri-72ceb064.js";

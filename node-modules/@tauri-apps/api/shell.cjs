@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("./shell-bd335823.cjs");require("./tslib.es6-2b0ec40b.cjs"),require("./tauri-2adf13fc.cjs"),require("./tauri-8b927e10.cjs"),exports.Child=e.Child,exports.Command=e.Command,exports.EventEmitter=e.EventEmitter,exports.open=e.open;
