@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29a830d0.chunk.css",
+    "main.js": "/static/js/main.ac243d2f.chunk.js",
+    "main.js.map": "/static/js/main.ac243d2f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ac64911a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ac64911a.js.map",
+    "static/js/2.26083098.chunk.js": "/static/js/2.26083098.chunk.js",
+    "static/js/2.26083098.chunk.js.map": "/static/js/2.26083098.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.517f011e64f6458d3041bf500b9a1e9a.js": "/precache-manifest.517f011e64f6458d3041bf500b9a1e9a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.29a830d0.chunk.css.map": "/static/css/main.29a830d0.chunk.css.map",
+    "static/js/2.26083098.chunk.js.LICENSE.txt": "/static/js/2.26083098.chunk.js.LICENSE.txt",
+    "static/media/OIP.jpg": "/static/media/OIP.cbe65582.jpg",
+    "static/media/ZakariaAliti.jpg": "/static/media/ZakariaAliti.bb26a8c6.jpg",
+    "static/media/boxicons.min.css": "/static/media/boxicons.f6e743a7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac64911a.js",
+    "static/js/2.26083098.chunk.js",
+    "static/css/main.29a830d0.chunk.css",
+    "static/js/main.ac243d2f.chunk.js"
+  ]
+}
