@@ -1,1 +1,0 @@
-export{i as isRegistered,r as register,a as registerAll,u as unregister,b as unregisterAll}from"./globalShortcut-931a6c42.js";import"./tslib.es6-9bc0804d.js";import"./tauri-19998099.js";import"./tauri-72ceb064.js";
